@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "kind": "score",
+  "title": "数据格式演示：延迟值为虚构估计，须替换为当前音源的依据",
+  "bpm": 120,
+  "meter": [4, 4],
+  "preroll_beats": 2,
+  "end_beats": 8,
+  "tracks": [
+    {
+      "template_index": 1,
+      "notes": [
+        {"beat": 0, "duration": 1, "pitch": 64, "velocity": 76, "advance_ms": 80, "timing_basis": "estimated"},
+        {"beat": 1.5, "duration": 0.5, "pitch": 67, "velocity": 83, "advance_ms": 40, "timing_basis": "estimated"},
+        {"beat": 2, "duration": 2, "pitch": 66, "velocity": 70, "advance_ms": 80, "timing_basis": "estimated"}
+      ],
+      "controllers": [
+        {"beat": -1, "controller": 11, "value": 68, "advance_ms": 0},
+        {"beat": 0.5, "controller": 11, "value": 77, "advance_ms": 0},
+        {"beat": 2.5, "controller": 11, "value": 73, "advance_ms": 0},
+        {"beat": 3.5, "controller": 11, "value": 60, "advance_ms": 0}
+      ]
+    }
+  ]
+}

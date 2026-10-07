@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "kind": "notation",
+  "title": "Synthetic notation example",
+  "subtitle": "Rhythm and pitch data only",
+  "bars": [
+    {"meter": [4, 4], "key": {"step": "C", "alter": 0, "mode": "major"}, "tempo": 96, "rehearsal": "A"},
+    {}
+  ],
+  "parts": [
+    {
+      "id": "instrument",
+      "name": "Instrument",
+      "short_name": "Inst.",
+      "clef": "treble",
+      "notes": [
+        {"id": "n1", "beat": 0, "duration": "3/2", "pitches": [{"step": "C", "alter": 0, "octave": 4}], "dynamic": "mp", "slur_start": true},
+        {"id": "n2", "beat": "3/2", "duration": "1/2", "pitches": [{"step": "D", "alter": 0, "octave": 4}], "slur_end": true},
+        {"id": "n3", "beat": 3, "duration": 2, "pitches": [{"step": "E", "alter": 0, "octave": 4}]},
+        {"id": "n4", "beat": 6, "duration": 1, "pitches": [{"step": "C", "alter": 0, "octave": 4}, {"step": "G", "alter": 0, "octave": 4}], "articulations": ["tenuto"]}
+      ]
+    }
+  ]
+}

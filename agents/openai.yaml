@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Cubase 音乐创作"
+  short_description: "实现 Cubase 工程，直接编写与修改 LilyPond 总谱和分谱"
+  default_prompt: "请使用 $cubase-ai-composer，按本次音乐意图交付所需 Cubase 工程或乐谱；记谱默认直接编写和修改 LilyPond 源码，编译并检查谱面，已有结构化数据按需使用转换工具。"

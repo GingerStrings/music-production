@@ -1,0 +1,2219 @@
+{
+  "schema_version": 2,
+  "kind": "notation",
+  "title": "Window Light",
+  "subtitle": "A short piece for piano",
+  "bars": [
+    {
+      "meter": [
+        4,
+        4
+      ],
+      "key": {
+        "step": "C",
+        "alter": 0,
+        "mode": "major"
+      },
+      "tempo": 88,
+      "text": "Andante, cantabile",
+      "rehearsal": "A"
+    },
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {
+      "text": "Poco più mosso",
+      "tempo": 96,
+      "rehearsal": "B"
+    },
+    {},
+    {},
+    {},
+    {
+      "text": "Tempo I",
+      "tempo": 88
+    },
+    {},
+    {},
+    {
+      "text": "Dolce"
+    }
+  ],
+  "provenance": {
+    "origin": "Original synthetic example; musical choices are specific to this study."
+  },
+  "parts": [
+    {
+      "id": "piano",
+      "name": "Piano",
+      "short_name": "Pno.",
+      "group": "piano",
+      "breaks": [
+        4,
+        8,
+        12
+      ],
+      "staves": [
+        {
+          "id": "upper",
+          "clef": "treble",
+          "voices": [
+            {
+              "id": "melody",
+              "notes": [
+                {
+                  "id": "m1",
+                  "beat": 0,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ],
+                  "slur_start": true
+                },
+                {
+                  "id": "m2",
+                  "beat": 1,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m3",
+                  "beat": 1.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m4",
+                  "beat": 2.0,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m5",
+                  "beat": 3.0,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m6",
+                  "beat": 4,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m7",
+                  "beat": 5,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m8",
+                  "beat": 6,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m9",
+                  "beat": 7,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ],
+                  "slur_end": true
+                },
+                {
+                  "id": "m10",
+                  "beat": 8,
+                  "duration": 1.5,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ],
+                  "slur_start": true
+                },
+                {
+                  "id": "m11",
+                  "beat": 9.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m12",
+                  "beat": 10.0,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m13",
+                  "beat": 11.0,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m14",
+                  "beat": 12,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "B",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "m15",
+                  "beat": 13,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m16",
+                  "beat": 14,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ],
+                  "slur_end": true
+                },
+                {
+                  "id": "m17",
+                  "beat": 16,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ],
+                  "slur_start": true
+                },
+                {
+                  "id": "m18",
+                  "beat": 17,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m19",
+                  "beat": 18,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m20",
+                  "beat": 19,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m21",
+                  "beat": 20,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m22",
+                  "beat": 22,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m23",
+                  "beat": 23,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ],
+                  "slur_end": true
+                },
+                {
+                  "id": "m24",
+                  "beat": 24,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ],
+                  "slur_start": true
+                },
+                {
+                  "id": "m25",
+                  "beat": 25,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m26",
+                  "beat": 25.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m27",
+                  "beat": 26.0,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m28",
+                  "beat": 27.0,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "B",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "m29",
+                  "beat": 28,
+                  "duration": 4,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ],
+                  "slur_end": true
+                },
+                {
+                  "id": "m30",
+                  "beat": 32,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ],
+                  "slur_start": true
+                },
+                {
+                  "id": "m31",
+                  "beat": 32.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m32",
+                  "beat": 33.0,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m33",
+                  "beat": 34.0,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m34",
+                  "beat": 35.0,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m35",
+                  "beat": 36,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m36",
+                  "beat": 37,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m37",
+                  "beat": 38,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m38",
+                  "beat": 39,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ],
+                  "slur_end": true
+                },
+                {
+                  "id": "m39",
+                  "beat": 40,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ],
+                  "slur_start": true
+                },
+                {
+                  "id": "m40",
+                  "beat": 42,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m41",
+                  "beat": 43,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m42",
+                  "beat": 44,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m43",
+                  "beat": 45,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m44",
+                  "beat": 46,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ],
+                  "slur_end": true
+                },
+                {
+                  "id": "m45",
+                  "beat": 48,
+                  "duration": 1.5,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ],
+                  "slur_start": true
+                },
+                {
+                  "id": "m46",
+                  "beat": 49.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m47",
+                  "beat": 50.0,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m48",
+                  "beat": 52,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m49",
+                  "beat": 53,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m50",
+                  "beat": 54,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "B",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ],
+                  "slur_end": true
+                },
+                {
+                  "id": "m51",
+                  "beat": 56,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m52",
+                  "beat": 58,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m53",
+                  "beat": 59,
+                  "duration": 1,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "m54",
+                  "beat": 60,
+                  "duration": 4,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "inner",
+              "notes": [
+                {
+                  "id": "i1",
+                  "beat": 0,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "i2",
+                  "beat": 2,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "B",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i3",
+                  "beat": 4,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i4",
+                  "beat": 6,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "i5",
+                  "beat": 8,
+                  "duration": 4,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i6",
+                  "beat": 12,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i7",
+                  "beat": 14,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "B",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i8",
+                  "beat": 16,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i9",
+                  "beat": 18,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "i10",
+                  "beat": 20,
+                  "duration": 4,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i11",
+                  "beat": 24,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i12",
+                  "beat": 26,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i13",
+                  "beat": 28,
+                  "duration": 4,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i14",
+                  "beat": 32,
+                  "duration": 4,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "i15",
+                  "beat": 36,
+                  "duration": 4,
+                  "pitches": [
+                    {
+                      "step": "B",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i16",
+                  "beat": 40,
+                  "duration": 6,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 5
+                    }
+                  ]
+                },
+                {
+                  "id": "i17",
+                  "beat": 46,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i18",
+                  "beat": 48,
+                  "duration": 4,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i19",
+                  "beat": 52,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i20",
+                  "beat": 54,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i21",
+                  "beat": 56,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i22",
+                  "beat": 58,
+                  "duration": 2,
+                  "pitches": [
+                    {
+                      "step": "B",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "i23",
+                  "beat": 60,
+                  "duration": 4,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lower",
+          "clef": "bass",
+          "voices": [
+            {
+              "id": "accompaniment",
+              "notes": [
+                {
+                  "id": "a1",
+                  "beat": 0.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a2",
+                  "beat": 1.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a3",
+                  "beat": 2.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a4",
+                  "beat": 3.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a5",
+                  "beat": 4.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 2
+                    }
+                  ]
+                },
+                {
+                  "id": "a6",
+                  "beat": 5.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a7",
+                  "beat": 6.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a8",
+                  "beat": 7.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a9",
+                  "beat": 8.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 2
+                    }
+                  ]
+                },
+                {
+                  "id": "a10",
+                  "beat": 9.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a11",
+                  "beat": 10.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a12",
+                  "beat": 11.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a13",
+                  "beat": 12.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 2
+                    }
+                  ]
+                },
+                {
+                  "id": "a14",
+                  "beat": 13.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a15",
+                  "beat": 14.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "B",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a16",
+                  "beat": 15.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a17",
+                  "beat": 16.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a18",
+                  "beat": 17.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a19",
+                  "beat": 18.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a20",
+                  "beat": 19.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a21",
+                  "beat": 20.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a22",
+                  "beat": 21.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a23",
+                  "beat": 22.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a24",
+                  "beat": 23.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a25",
+                  "beat": 24.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 2
+                    }
+                  ]
+                },
+                {
+                  "id": "a26",
+                  "beat": 25.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a27",
+                  "beat": 26.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "B",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a28",
+                  "beat": 27.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a29",
+                  "beat": 28.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a30",
+                  "beat": 29.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a31",
+                  "beat": 30.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a32",
+                  "beat": 31.0,
+                  "duration": 1.0,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a33",
+                  "beat": 32.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 2
+                    }
+                  ]
+                },
+                {
+                  "id": "a34",
+                  "beat": 32.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a35",
+                  "beat": 33.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a36",
+                  "beat": 33.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a37",
+                  "beat": 34.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a38",
+                  "beat": 34.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a39",
+                  "beat": 35.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a40",
+                  "beat": 35.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a41",
+                  "beat": 36.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a42",
+                  "beat": 36.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a43",
+                  "beat": 37.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "B",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a44",
+                  "beat": 37.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a45",
+                  "beat": 38.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "B",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a46",
+                  "beat": 38.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a47",
+                  "beat": 39.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "B",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a48",
+                  "beat": 39.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a49",
+                  "beat": 40.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 2
+                    }
+                  ]
+                },
+                {
+                  "id": "a50",
+                  "beat": 40.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a51",
+                  "beat": 41.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a52",
+                  "beat": 41.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a53",
+                  "beat": 42.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a54",
+                  "beat": 42.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a55",
+                  "beat": 43.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a56",
+                  "beat": 43.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a57",
+                  "beat": 44.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a58",
+                  "beat": 44.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a59",
+                  "beat": 45.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a60",
+                  "beat": 45.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a61",
+                  "beat": 46.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a62",
+                  "beat": 46.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a63",
+                  "beat": 47.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "A",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a64",
+                  "beat": 47.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "D",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a65",
+                  "beat": 48.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 2
+                    }
+                  ]
+                },
+                {
+                  "id": "a66",
+                  "beat": 48.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a67",
+                  "beat": 49.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a68",
+                  "beat": 49.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a69",
+                  "beat": 50.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a70",
+                  "beat": 50.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a71",
+                  "beat": 51.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a72",
+                  "beat": 51.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a73",
+                  "beat": 52.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 2
+                    }
+                  ]
+                },
+                {
+                  "id": "a74",
+                  "beat": 52.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a75",
+                  "beat": 53.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a76",
+                  "beat": 53.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "B",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a77",
+                  "beat": 54.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a78",
+                  "beat": 54.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "F",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a79",
+                  "beat": 55.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a80",
+                  "beat": 55.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "B",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a81",
+                  "beat": 56.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a82",
+                  "beat": 56.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a83",
+                  "beat": 57.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a84",
+                  "beat": 57.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a85",
+                  "beat": 58.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a86",
+                  "beat": 58.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "E",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a87",
+                  "beat": 59.0,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "a88",
+                  "beat": 59.5,
+                  "duration": 0.5,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                },
+                {
+                  "id": "a89",
+                  "beat": 60.0,
+                  "duration": 4.0,
+                  "pitches": [
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 3
+                    },
+                    {
+                      "step": "G",
+                      "alter": 0,
+                      "octave": 3
+                    },
+                    {
+                      "step": "C",
+                      "alter": 0,
+                      "octave": 4
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "dynamics": [
+        {
+          "beat": 0,
+          "dynamic": "p"
+        },
+        {
+          "beat": 12,
+          "hairpin": "<"
+        },
+        {
+          "beat": 16,
+          "dynamic": "mp"
+        },
+        {
+          "beat": 24,
+          "hairpin": ">"
+        },
+        {
+          "beat": 28,
+          "dynamic": "p"
+        },
+        {
+          "beat": 32,
+          "dynamic": "mp"
+        },
+        {
+          "beat": 40,
+          "hairpin": "<"
+        },
+        {
+          "beat": 48,
+          "dynamic": "mf"
+        },
+        {
+          "beat": 56,
+          "hairpin": ">"
+        },
+        {
+          "beat": 60,
+          "dynamic": "pp"
+        }
+      ],
+      "pedal": [
+        {
+          "beat": 0,
+          "action": "down"
+        },
+        {
+          "beat": 4,
+          "action": "change"
+        },
+        {
+          "beat": 8,
+          "action": "change"
+        },
+        {
+          "beat": 12,
+          "action": "change"
+        },
+        {
+          "beat": 16,
+          "action": "change"
+        },
+        {
+          "beat": 20,
+          "action": "change"
+        },
+        {
+          "beat": 24,
+          "action": "change"
+        },
+        {
+          "beat": 28,
+          "action": "change"
+        },
+        {
+          "beat": 32,
+          "action": "change"
+        },
+        {
+          "beat": 36,
+          "action": "change"
+        },
+        {
+          "beat": 40,
+          "action": "change"
+        },
+        {
+          "beat": 44,
+          "action": "change"
+        },
+        {
+          "beat": 48,
+          "action": "change"
+        },
+        {
+          "beat": 52,
+          "action": "change"
+        },
+        {
+          "beat": 56,
+          "action": "change"
+        },
+        {
+          "beat": 60,
+          "action": "change"
+        },
+        {
+          "beat": 64,
+          "action": "up"
+        }
+      ]
+    }
+  ]
+}
