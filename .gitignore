@@ -1,6 +1,6 @@
 # Private working data must stay outside public history.
 /work/
-/private/
+private/
 /tmp/
 /dist/
 /validation-local/
@@ -12,6 +12,7 @@ __pycache__/
 .env.*
 *.cpr
 *.flp
+*.svp
 *.bak*
 *.nki
 *.nkm
@@ -23,6 +24,9 @@ __pycache__/
 *.vstpreset
 *.vst3
 *.dll
+*.exe
+*.obj
+*.pdb
 *.bin
 *.wav
 *.aif

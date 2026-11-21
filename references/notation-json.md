@@ -64,19 +64,23 @@ v2 乐器字段为 `id`、`name`、`short_name`、`staves`，以及可选 `group
 
 ```bash
 python scripts/engrave.py examples/piano.json --out-dir work/piano-v1 --lilypond /actual/path/to/lilypond
-python scripts/verify_engraving.py work/piano-v1 --report work/piano-check.json
 ```
 
 v2 同样接受 1–64 件乐器。每件乐器的断行/换页选项用于其分谱。未知字段、混用两版乐器结构、无效声部编号、不可表示时值、声部内重叠和不闭合标记会报错。连音组、跨谱表、移调、鼓谱、TAB 与歌词等需求优先使用原生源码，本接口没有对应字段。MusicXML 导出未在本包实现。
 
 ## 生成和核对
 
-下列生成、哈希与 MIDI 回读检查配套使用，适用于该转换器产物。直接编写或手工修改的原生谱面按 [原生流程](notation.md) 核对；不要把此处的转换检查设为每次改谱的前置条件。
+正常使用生成器与 LilyPond 完成输出，按 [原生流程](notation.md) 做必要的编译与谱面检查即可。独立回读工具只用于修改转换逻辑、排查具体转换错误或用户明确要求技术核对的任务，不与每次生成默认捆绑。遵循 [艺术优先与验证边界](../SKILL.md#艺术优先与验证边界)，转换一致性不能用于验证音乐性。
 
 先定位本机 LilyPond；版本和路径记录在私有任务资料。Windows 便携发行版宜放在 ASCII 路径，使用绝对路径执行。生成器在系统临时目录编译，然后在输出所在磁盘发布结果；避免依赖工作区中文路径的兼容情况。中文标题本身使用 UTF-8。
 
 ```bash
 python scripts/engrave.py work/notation.json --out-dir work/engraved-v1 --lilypond /actual/path/to/lilypond
+```
+
+出现上述技术核对需要时，可对生成器原始产物运行已有工具，无需另写验证脚本：
+
+```bash
 python scripts/verify_engraving.py work/engraved-v1 --report work/engraving-check.json
 ```
 
@@ -84,9 +88,9 @@ python scripts/verify_engraving.py work/engraved-v1 --report work/engraving-chec
 
 `music.ily` 共享各声部音符；`score.ly` 与每件乐器 `.ly` 分别生成总谱和分谱 PDF。编译警告视为需要修正的问题，失败不发布完成目录。`engraving-report.json` 保存文件哈希和逐音拆分对应。`audit.ly` 使用相同节奏/音高生成路径，去掉影响演奏长度的表情标记，编译 `audit.midi` 用于独立检查；该 MIDI 不替代 Cubase 演奏数据。v2 为每条逻辑声部建立独立、具名的核对轨，保留同音重叠，并在专用核对轨检查踏板 CC64 的时间和状态。核对 MIDI 中的声部分轨及踏板分轨用于检查，不表示目标 DAW 的轨道或路由。
 
-回读脚本验证源码与数据对应、文件哈希、LilyPond 实际生成的每个音高/起点/时值以及 PDF 页存在。再渲染并查看每个最终 PDF 页面：谱号、临时升降号、拍数、声部对齐、弧线、休止、排练号、文本碰撞、页码和翻页。将视觉检查独立记录，不能将回读报告里的 `pdf_visually_reviewed` 自动改为真。
+按需使用的回读脚本检查源码与数据对应、文件哈希、LilyPond 实际生成的音高/起点/时值以及 PDF 页存在，不判断音乐好坏。工具自动附带的文件不需要再扩展成审计材料。谱面查看按原生流程覆盖新谱或受影响的页面，无需逐项填写检查报告；自动检查结果不代表已经查看页面，不能据此把 `pdf_visually_reviewed` 改为真。
 
-同时交付 CPR 时，分别核对记谱数据、延迟/奏法转换和工程回读；为有意的音值差异保留映射。该流程不声称音频转录准确、插件加载成功或已经试听。
+同时交付 CPR 时，保留谱面位置与触发位置的必要对应及有意音值差异，复用各自工具的内置检查；仅在转换逻辑改变或出现具体差异时排查相关部分，不默认增加多套回读。该流程不声称音频转录准确、插件加载成功或已经试听。
 
 ## 官方参考
 

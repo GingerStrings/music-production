@@ -1,0 +1,51 @@
+-- Temporary SV startup-scan template. Configure for one isolated task only.
+-- Replace the three placeholders with absolute paths using forward slashes.
+-- Remove the deployed copy after the task; do not keep an auto-play startup script.
+local PROJECT = "@PROJECT_PATH@"
+local READY = "@READY_PATH@"
+local LOG = "@LOG_PATH@"
+
+local function normalized(path)
+  return string.lower(string.gsub(path, "\\", "/"))
+end
+
+local function log(message)
+  local f = io.open(LOG, "a")
+  if f then
+    f:write(os.date("!%Y-%m-%dT%H:%M:%SZ") .. " " .. message .. "\n")
+    f:close()
+  end
+end
+
+function getClientInfo()
+  local info = {name="Isolated SV recording", author="Local recording task",
+                versionNumber=1, minEditorVersion=65537}
+  if string.match(PROJECT, "^@[%u_]+@$") or string.match(READY, "^@[%u_]+@$")
+      or string.match(LOG, "^@[%u_]+@$") then return info end
+  local ok, filename = pcall(function() return SV:getProject():getFileName() end)
+  log("project=" .. tostring(ok) .. " " .. tostring(filename))
+  if not ok or type(filename) ~= "string"
+      or normalized(filename) ~= normalized(PROJECT) then return info end
+  local ready = io.open(READY, "r")
+  if not ready then log("ready_absent_play_skipped"); return info end
+  local token = ready:read("*a")
+  ready:close()
+  -- Expected recorder-ready JSON is the only token this template consumes.
+  if not string.match(token, '"ready"%s*:%s*true') then
+    log("invalid_ready_play_skipped"); return info
+  end
+  if not os.remove(READY) then log("ready_consume_failed_play_skipped"); return info end
+  local played, status = pcall(function()
+    local playback = SV:getPlayback()
+    playback:seek(0)
+    playback:play()
+    return playback:getStatus() .. " playhead=" .. tostring(playback:getPlayhead())
+  end)
+  log("play=" .. tostring(played) .. " " .. tostring(status))
+  return info
+end
+
+function main()
+  -- Manual menu invocation is unnecessary for this startup-scan workflow.
+  SV:finish()
+end

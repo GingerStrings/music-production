@@ -1,0 +1,5 @@
+# Optional isolated runtime for offline audio; static CPR work needs none of these.
+# The state wrapper was checked against this Pedalboard version.
+pedalboard==0.9.26
+numpy>=1.24,<3
+soundfile>=0.12,<1
